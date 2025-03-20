@@ -1,3 +1,7 @@
 let subheading = document.getElementById("subheading");
 
-subheading.addEventListener('click', window.location.replace("https://youtu.be/dQw4w9WgXcQ?feature=shared"));
+let openRelatedVideo = () => {
+    window.location.replace("https://youtu.be/dQw4w9WgXcQ?feature=shared");
+}
+
+subheading.addEventListener('click', openRelatedVideo);
